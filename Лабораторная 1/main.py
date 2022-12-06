@@ -6,7 +6,7 @@ import doctest
 class Application:
     def __init__(self, name: str, memory_needs: int, development_name: str):
         """
-        Создание и подготовка к работе объекта Приложение
+        Создание и подготовка к работе класса Приложение
 
         :param name: название приложения
         :param memory_needs: количество занимаемой памяти
@@ -56,7 +56,7 @@ class Application:
 class Phone:
     def __init__(self, model: str, memory_storage: int, price: int, manufacturer_company: str):
         """
-        Создание и подготовка к работе объекта Телефон
+        Создание и подготовка к работе класса Телефон
 
         :param model: модель телефона
         :param memory_storage: количество памяти в телефоне
@@ -126,7 +126,7 @@ class Phone:
 class Shop:
     def __init__(self, name: str, city: str, phones: dict):
         """
-        Создание и подготовка к работе объекта Магазин
+        Создание и подготовка к работе класса Магазин
 
         :param name: название магазина
         :param city: расположение магазина
