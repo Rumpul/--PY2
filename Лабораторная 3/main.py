@@ -22,7 +22,7 @@ class Book:
         Я предпочел унаследовать метод str с небольшим дополнением о количестве страниц или длительности книги
         Использовал функцию super()
         """
-        return f"Книга {self._name}. Автор {self._author}"
+        return f"Книга {self.name}. Автор {self.author}"
 
     def __repr__(self):
         return f"{self.__class__.__name__}(name={self.name!r}, author={self.author!r})"
